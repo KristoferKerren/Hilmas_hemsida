@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  text-align: center;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+body {
+  background-color: rgba(253, 253, 30, 0.929);
+}
+
+h1 {
+  text-decoration: underline;
+  font-size: 60px;
+  color: rgba(253, 22, 142, 0.947);
+}
+
+h2 {
+  color: rgb(231, 62, 231);
+  margin-top: 45px;
+}
+
+p {
+  color: darkblue;
+}
+
+a {
+  color: blueviolet;
+}
+
+.alla-bilder {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.bild-container {
+  display: inline-flex;
+  flex-direction: column;
+  border: 3px solid purple;
+  margin: 5px;
+  background-color: yellowgreen;
+}
+
+.bild {
+  width: 150px;
+}

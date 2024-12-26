@@ -8,7 +8,6 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   text-align: center;
-  background-color: #f9f9f9;
   color: #333;
   padding: 20px;
 }
@@ -30,10 +29,6 @@ button {
 
 button:hover {
   background-color: #0056b3;
-}
-
-body {
-  background-color: rgba(253, 253, 30, 0.929);
 }
 
 h1 {
@@ -69,7 +64,8 @@ a {
 }
 
 .bild {
-  width: 150px;
+  width: 170px;
+  height: 230px;
 }
 
 .brasilien-bild {

@@ -8,7 +8,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   text-align: center;
-  color: #333;
+
   padding: 20px;
 }
 
@@ -38,12 +38,11 @@ h1 {
 }
 
 h2 {
-  color: rgb(231, 62, 231);
   margin-top: 45px;
 }
 
 p {
-  color: darkblue;
+  color: rgb(74, 1, 1);
 }
 
 a {

@@ -9,6 +9,19 @@ window.onload = (event) => {
 
   let färgSiffra = 0;
   document.body.style.background = färgLista[0];
+
+  const rubrikfärgLista = [
+    "rgb(231, 62, 231)",
+    "rgb(133, 30, 133)",
+    "rgb(50, 82, 4)",
+  ];
+  let rubrikFärgSiffra = 0;
+  const h2Elements = document.querySelectorAll("h2");
+
+  h2Elements.forEach((h2) => {
+    h2.style.color = rubrikfärgLista[rubrikFärgSiffra];
+  });
+
   const bytFärgKnapp = document.getElementById("byt-bakgrundsfärg-knapp");
   bytFärgKnapp.addEventListener("click", () => {
     färgSiffra = färgSiffra + 1;
@@ -16,5 +29,16 @@ window.onload = (event) => {
       färgSiffra = 0;
     }
     document.body.style.background = färgLista[färgSiffra];
+  });
+
+  const bytRubrikFärgKnapp = document.getElementById("byt-rubriksfärg-knapp");
+  bytRubrikFärgKnapp.addEventListener("click", () => {
+    rubrikFärgSiffra = rubrikFärgSiffra + 1;
+    if (rubrikFärgSiffra > rubrikfärgLista.length - 1) {
+      rubrikFärgSiffra = 0;
+    }
+    h2Elements.forEach((h2) => {
+      h2.style.color = rubrikfärgLista[rubrikFärgSiffra];
+    });
   });
 };

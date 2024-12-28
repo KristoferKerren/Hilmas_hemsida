@@ -4,6 +4,7 @@ window.onload = (event) => {
     "rgba(253, 253, 30, 0.93)",
     "rgb(27, 235, 27)",
     "rgb(15, 195, 254)",
+    "rgb(2, 2, 255)",
     "rgb(249, 121, 142)",
   ];
 
@@ -14,6 +15,7 @@ window.onload = (event) => {
     "rgb(231, 62, 231)",
     "rgb(133, 30, 133)",
     "rgb(50, 82, 4)",
+    "rgb(22, 22, 134)",
   ];
   let rubrikFärgSiffra = 0;
   const h2Elements = document.querySelectorAll("h2");

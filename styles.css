@@ -49,6 +49,11 @@ a {
   color: blueviolet;
 }
 
+.max-bredd {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .alla-bilder {
   max-width: 600px;
   margin: 0 auto;

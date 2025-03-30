@@ -41,10 +41,6 @@ h2 {
   margin-top: 45px;
 }
 
-p {
-  color: rgb(74, 1, 1);
-}
-
 a {
   color: blueviolet;
 }
@@ -75,4 +71,8 @@ a {
 .brasilien-bild {
   width: 250px;
   height: 300px;
+}
+
+.hej {
+  color: rgb(245, 245, 245);
 }
